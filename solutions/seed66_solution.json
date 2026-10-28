@@ -1,0 +1,562 @@
+{
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "has_solver_vector": true,
+  "solver_objective": 6.0,
+  "solver_lower_bound": 6.0,
+  "solver_relative_gap": 0.0,
+  "solver_node_count": 1,
+  "elapsed_seconds_for_log_only": 0.01775488399994174,
+  "model_size": {
+    "nx": 27,
+    "nz": 9,
+    "rows": 111,
+    "distance_pairs": 27,
+    "approximate_rounds": [
+      3,
+      4,
+      5
+    ]
+  },
+  "time_limit_seconds": 10.0,
+  "mip_rel_gap_requested": 0.0,
+  "outcome": "verified_optimal_within_tolerance",
+  "x": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "y": [
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "groups": [
+    [
+      1,
+      4,
+      7
+    ],
+    [
+      3,
+      6,
+      9
+    ],
+    [
+      2,
+      5,
+      8
+    ]
+  ],
+  "original_P1_audit": {
+    "feasible": true,
+    "checks": {
+      "binary_x": true,
+      "binary_y": true,
+      "unique_assignment": true,
+      "capacity": true,
+      "distance": true,
+      "ownership": true,
+      "target_and_no_duplicate": true,
+      "one_call_per_manager": true,
+      "strict_rounds_complete": true
+    },
+    "failures": [],
+    "L": 6,
+    "round_records": [
+      {
+        "round": 1,
+        "strict": true,
+        "targets": [
+          2,
+          4,
+          9
+        ],
+        "by_manager": [
+          [
+            4
+          ],
+          [
+            9
+          ],
+          [
+            2
+          ]
+        ],
+        "activated": [
+          2,
+          4,
+          9
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 2,
+        "strict": true,
+        "targets": [
+          4,
+          5,
+          9
+        ],
+        "by_manager": [
+          [
+            4
+          ],
+          [
+            9
+          ],
+          [
+            5
+          ]
+        ],
+        "activated": [
+          4,
+          5,
+          9
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 3,
+        "strict": true,
+        "targets": [
+          5
+        ],
+        "by_manager": [
+          [],
+          [],
+          [
+            5
+          ]
+        ],
+        "activated": [
+          5
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 4,
+        "strict": false,
+        "targets": [
+          5,
+          9
+        ],
+        "by_manager": [
+          [],
+          [
+            9
+          ],
+          [
+            5
+          ]
+        ],
+        "activated": [
+          5,
+          9
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 5,
+        "strict": false,
+        "targets": [
+          1,
+          2,
+          5,
+          6,
+          8,
+          9
+        ],
+        "by_manager": [
+          [
+            1
+          ],
+          [
+            6
+          ],
+          [
+            2
+          ]
+        ],
+        "activated": [
+          1,
+          2,
+          6
+        ],
+        "missing": [
+          5,
+          8,
+          9
+        ],
+        "omissions": 3
+      },
+      {
+        "round": 6,
+        "strict": false,
+        "targets": [
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "by_manager": [
+          [
+            1
+          ],
+          [],
+          [
+            2
+          ]
+        ],
+        "activated": [
+          1,
+          2
+        ],
+        "missing": [
+          4,
+          5,
+          8
+        ],
+        "omissions": 3
+      }
+    ]
+  },
+  "Q": 6,
+  "upper_bound": 6,
+  "lower_bound": 6.0,
+  "elementary_count_lower_bound": 5,
+  "absolute_gap": 0.0,
+  "optimality_basis": "solver_bounds_within_tolerance"
+}

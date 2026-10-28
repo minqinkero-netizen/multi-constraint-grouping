@@ -1,0 +1,329 @@
+{
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "has_solver_vector": true,
+  "solver_objective": 0.0,
+  "solver_lower_bound": 0.0,
+  "solver_relative_gap": 0.0,
+  "solver_node_count": 1,
+  "elapsed_seconds_for_log_only": 0.006137231999900905,
+  "model_size": {
+    "nx": 16,
+    "nz": 4,
+    "rows": 22,
+    "distance_pairs": 2,
+    "approximate_rounds": [
+      2,
+      3
+    ]
+  },
+  "time_limit_seconds": 10.0,
+  "mip_rel_gap_requested": 0.0,
+  "outcome": "verified_optimal_within_tolerance",
+  "x": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "y": [
+    [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  ],
+  "groups": [
+    [
+      1,
+      2,
+      5,
+      6
+    ],
+    [
+      3,
+      4,
+      7,
+      8
+    ]
+  ],
+  "original_P1_audit": {
+    "feasible": true,
+    "checks": {
+      "binary_x": true,
+      "binary_y": true,
+      "unique_assignment": true,
+      "capacity": true,
+      "distance": true,
+      "ownership": true,
+      "target_and_no_duplicate": true,
+      "one_call_per_manager": true,
+      "strict_rounds_complete": true
+    },
+    "failures": [],
+    "L": 0,
+    "round_records": [
+      {
+        "round": 1,
+        "strict": true,
+        "targets": [
+          1,
+          8
+        ],
+        "by_manager": [
+          [
+            1
+          ],
+          [
+            8
+          ]
+        ],
+        "activated": [
+          1,
+          8
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 2,
+        "strict": true,
+        "targets": [
+          2,
+          7
+        ],
+        "by_manager": [
+          [
+            2
+          ],
+          [
+            7
+          ]
+        ],
+        "activated": [
+          2,
+          7
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 3,
+        "strict": false,
+        "targets": [
+          1,
+          3
+        ],
+        "by_manager": [
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ],
+        "activated": [
+          1,
+          3
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 4,
+        "strict": false,
+        "targets": [
+          5,
+          7
+        ],
+        "by_manager": [
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "activated": [
+          5,
+          7
+        ],
+        "missing": [],
+        "omissions": 0
+      }
+    ]
+  },
+  "Q": 0,
+  "upper_bound": 0,
+  "lower_bound": 0.0,
+  "elementary_count_lower_bound": 0,
+  "absolute_gap": 0.0,
+  "optimality_basis": "nonnegative_objective_and_zero_feasible_loss"
+}
