@@ -1,0 +1,14 @@
+{
+  "purpose": "post-main budget sensitivity, not independent new instances",
+  "selection": "all four C/n64 instances regardless of individual outcome",
+  "methods": [
+    "G",
+    "LS",
+    "P1",
+    "P2"
+  ],
+  "soft_deadline_seconds": 10.0,
+  "new_runs": 16,
+  "same_heuristic_seed_as_main": true,
+  "order_seed": 900000
+}

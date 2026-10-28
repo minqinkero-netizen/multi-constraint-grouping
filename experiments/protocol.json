@@ -1,0 +1,36 @@
+{
+  "families": [
+    "U",
+    "C"
+  ],
+  "sizes": [
+    16,
+    32,
+    64
+  ],
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004
+  ],
+  "T": 32,
+  "strict_rounds": 16,
+  "K": 5,
+  "resources_per_witness_group": 4,
+  "strict_group_inclusion_probability": 0.55,
+  "soft_target_probability": 0.25,
+  "soft_deadline_seconds": 3.0,
+  "solver_threads": 1,
+  "mip_rel_gap": 0.0,
+  "methods": [
+    "G",
+    "LS",
+    "P1",
+    "P2"
+  ],
+  "heuristic_rng_seed_rule": "700000 + 1000*family_index + 10*n + seed",
+  "execution_order_seed_rule": "800000 + 1000*family_index + 10*n + seed",
+  "repetitions_per_instance_method": 1,
+  "scope": "24 independent synthetic inputs; 96 method runs; no tuning or discarding by result"
+}

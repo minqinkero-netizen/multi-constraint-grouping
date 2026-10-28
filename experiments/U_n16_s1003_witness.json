@@ -1,0 +1,910 @@
+{
+  "labels_zero_based": [
+    3,
+    0,
+    3,
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    3,
+    2,
+    3,
+    2,
+    1,
+    0,
+    2
+  ],
+  "L": 23,
+  "audit": {
+    "feasible": true,
+    "checks": {
+      "binary_x": true,
+      "binary_y": true,
+      "unique_assignment": true,
+      "capacity": true,
+      "distance": true,
+      "ownership": true,
+      "target_and_no_duplicate": true,
+      "one_call_per_manager": true,
+      "strict_rounds_complete": true
+    },
+    "failures": [],
+    "L": 23,
+    "round_records": [
+      {
+        "round": 1,
+        "strict": true,
+        "targets": [
+          1,
+          6
+        ],
+        "by_manager": [
+          [],
+          [
+            6
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "activated": [
+          1,
+          6
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 2,
+        "strict": true,
+        "targets": [
+          3,
+          5,
+          6,
+          16
+        ],
+        "by_manager": [
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            16
+          ],
+          [
+            3
+          ]
+        ],
+        "activated": [
+          3,
+          5,
+          6,
+          16
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 3,
+        "strict": true,
+        "targets": [
+          5,
+          6
+        ],
+        "by_manager": [
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [],
+          []
+        ],
+        "activated": [
+          5,
+          6
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 4,
+        "strict": true,
+        "targets": [
+          3,
+          6,
+          16
+        ],
+        "by_manager": [
+          [],
+          [
+            6
+          ],
+          [
+            16
+          ],
+          [
+            3
+          ]
+        ],
+        "activated": [
+          3,
+          6,
+          16
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 5,
+        "strict": true,
+        "targets": [
+          1,
+          8,
+          9
+        ],
+        "by_manager": [
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "activated": [
+          1,
+          8,
+          9
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 6,
+        "strict": true,
+        "targets": [
+          2,
+          4,
+          7
+        ],
+        "by_manager": [
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ],
+          []
+        ],
+        "activated": [
+          2,
+          4,
+          7
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 7,
+        "strict": true,
+        "targets": [
+          3,
+          5
+        ],
+        "by_manager": [
+          [
+            5
+          ],
+          [],
+          [],
+          [
+            3
+          ]
+        ],
+        "activated": [
+          3,
+          5
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 8,
+        "strict": true,
+        "targets": [],
+        "by_manager": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "activated": [],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 9,
+        "strict": true,
+        "targets": [
+          6
+        ],
+        "by_manager": [
+          [],
+          [
+            6
+          ],
+          [],
+          []
+        ],
+        "activated": [
+          6
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 10,
+        "strict": true,
+        "targets": [
+          6,
+          15
+        ],
+        "by_manager": [
+          [
+            15
+          ],
+          [
+            6
+          ],
+          [],
+          []
+        ],
+        "activated": [
+          6,
+          15
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 11,
+        "strict": true,
+        "targets": [
+          3,
+          8,
+          13
+        ],
+        "by_manager": [
+          [
+            8
+          ],
+          [],
+          [
+            13
+          ],
+          [
+            3
+          ]
+        ],
+        "activated": [
+          3,
+          8,
+          13
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 12,
+        "strict": true,
+        "targets": [],
+        "by_manager": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "activated": [],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 13,
+        "strict": true,
+        "targets": [],
+        "by_manager": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "activated": [],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 14,
+        "strict": true,
+        "targets": [
+          1,
+          5,
+          11
+        ],
+        "by_manager": [
+          [
+            5
+          ],
+          [],
+          [
+            11
+          ],
+          [
+            1
+          ]
+        ],
+        "activated": [
+          1,
+          5,
+          11
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 15,
+        "strict": true,
+        "targets": [
+          1,
+          4
+        ],
+        "by_manager": [
+          [],
+          [
+            4
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "activated": [
+          1,
+          4
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 16,
+        "strict": true,
+        "targets": [
+          7,
+          9
+        ],
+        "by_manager": [
+          [],
+          [
+            9
+          ],
+          [
+            7
+          ],
+          []
+        ],
+        "activated": [
+          7,
+          9
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 17,
+        "strict": false,
+        "targets": [
+          1,
+          2,
+          7,
+          8,
+          11,
+          12,
+          14,
+          16
+        ],
+        "by_manager": [
+          [
+            2
+          ],
+          [
+            14
+          ],
+          [
+            7
+          ],
+          [
+            1
+          ]
+        ],
+        "activated": [
+          1,
+          2,
+          7,
+          14
+        ],
+        "missing": [
+          8,
+          11,
+          12,
+          16
+        ],
+        "omissions": 4
+      },
+      {
+        "round": 18,
+        "strict": false,
+        "targets": [
+          1,
+          3,
+          6,
+          13
+        ],
+        "by_manager": [
+          [],
+          [
+            6
+          ],
+          [
+            13
+          ],
+          [
+            1
+          ]
+        ],
+        "activated": [
+          1,
+          6,
+          13
+        ],
+        "missing": [
+          3
+        ],
+        "omissions": 1
+      },
+      {
+        "round": 19,
+        "strict": false,
+        "targets": [
+          3,
+          15
+        ],
+        "by_manager": [
+          [
+            15
+          ],
+          [],
+          [],
+          [
+            3
+          ]
+        ],
+        "activated": [
+          3,
+          15
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 20,
+        "strict": false,
+        "targets": [
+          5,
+          14,
+          16
+        ],
+        "by_manager": [
+          [
+            5
+          ],
+          [
+            14
+          ],
+          [
+            16
+          ],
+          []
+        ],
+        "activated": [
+          5,
+          14,
+          16
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 21,
+        "strict": false,
+        "targets": [
+          4,
+          6,
+          9,
+          10,
+          12
+        ],
+        "by_manager": [
+          [],
+          [
+            4
+          ],
+          [],
+          [
+            10
+          ]
+        ],
+        "activated": [
+          4,
+          10
+        ],
+        "missing": [
+          6,
+          9,
+          12
+        ],
+        "omissions": 3
+      },
+      {
+        "round": 22,
+        "strict": false,
+        "targets": [
+          1,
+          2,
+          5,
+          10,
+          12
+        ],
+        "by_manager": [
+          [
+            2
+          ],
+          [],
+          [],
+          [
+            1
+          ]
+        ],
+        "activated": [
+          1,
+          2
+        ],
+        "missing": [
+          5,
+          10,
+          12
+        ],
+        "omissions": 3
+      },
+      {
+        "round": 23,
+        "strict": false,
+        "targets": [
+          8,
+          9,
+          14,
+          16
+        ],
+        "by_manager": [
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            16
+          ],
+          []
+        ],
+        "activated": [
+          8,
+          9,
+          16
+        ],
+        "missing": [
+          14
+        ],
+        "omissions": 1
+      },
+      {
+        "round": 24,
+        "strict": false,
+        "targets": [
+          6,
+          8
+        ],
+        "by_manager": [
+          [
+            8
+          ],
+          [
+            6
+          ],
+          [],
+          []
+        ],
+        "activated": [
+          6,
+          8
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 25,
+        "strict": false,
+        "targets": [
+          2,
+          4,
+          6,
+          10,
+          13,
+          15
+        ],
+        "by_manager": [
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            13
+          ],
+          [
+            10
+          ]
+        ],
+        "activated": [
+          2,
+          4,
+          10,
+          13
+        ],
+        "missing": [
+          6,
+          15
+        ],
+        "omissions": 2
+      },
+      {
+        "round": 26,
+        "strict": false,
+        "targets": [
+          14,
+          15,
+          16
+        ],
+        "by_manager": [
+          [
+            15
+          ],
+          [
+            14
+          ],
+          [
+            16
+          ],
+          []
+        ],
+        "activated": [
+          14,
+          15,
+          16
+        ],
+        "missing": [],
+        "omissions": 0
+      },
+      {
+        "round": 27,
+        "strict": false,
+        "targets": [
+          5,
+          8,
+          9
+        ],
+        "by_manager": [
+          [
+            5
+          ],
+          [
+            9
+          ],
+          [],
+          []
+        ],
+        "activated": [
+          5,
+          9
+        ],
+        "missing": [
+          8
+        ],
+        "omissions": 1
+      },
+      {
+        "round": 28,
+        "strict": false,
+        "targets": [
+          8,
+          9,
+          11,
+          14,
+          16
+        ],
+        "by_manager": [
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            11
+          ],
+          []
+        ],
+        "activated": [
+          8,
+          9,
+          11
+        ],
+        "missing": [
+          14,
+          16
+        ],
+        "omissions": 2
+      },
+      {
+        "round": 29,
+        "strict": false,
+        "targets": [
+          2,
+          3,
+          8,
+          13
+        ],
+        "by_manager": [
+          [
+            2
+          ],
+          [],
+          [
+            13
+          ],
+          [
+            3
+          ]
+        ],
+        "activated": [
+          2,
+          3,
+          13
+        ],
+        "missing": [
+          8
+        ],
+        "omissions": 1
+      },
+      {
+        "round": 30,
+        "strict": false,
+        "targets": [
+          4,
+          5,
+          9,
+          10,
+          12,
+          14,
+          15
+        ],
+        "by_manager": [
+          [
+            5
+          ],
+          [
+            4
+          ],
+          [],
+          [
+            10
+          ]
+        ],
+        "activated": [
+          4,
+          5,
+          10
+        ],
+        "missing": [
+          9,
+          12,
+          14,
+          15
+        ],
+        "omissions": 4
+      },
+      {
+        "round": 31,
+        "strict": false,
+        "targets": [
+          2,
+          6,
+          7,
+          14
+        ],
+        "by_manager": [
+          [
+            2
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          []
+        ],
+        "activated": [
+          2,
+          6,
+          7
+        ],
+        "missing": [
+          14
+        ],
+        "omissions": 1
+      },
+      {
+        "round": 32,
+        "strict": false,
+        "targets": [
+          4,
+          7,
+          8
+        ],
+        "by_manager": [
+          [
+            8
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ],
+          []
+        ],
+        "activated": [
+          4,
+          7,
+          8
+        ],
+        "missing": [],
+        "omissions": 0
+      }
+    ]
+  }
+}

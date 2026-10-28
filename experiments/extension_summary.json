@@ -1,0 +1,50 @@
+{
+  "G": {
+    "feasible_3": 3,
+    "feasible_10": 3,
+    "own_certified_10": 0,
+    "max_seconds_10": 10.036667249999937,
+    "L_values_10": [
+      74,
+      71,
+      null,
+      78
+    ]
+  },
+  "LS": {
+    "feasible_3": 3,
+    "feasible_10": 3,
+    "own_certified_10": 0,
+    "max_seconds_10": 10.028443813999957,
+    "L_values_10": [
+      74,
+      70,
+      null,
+      78
+    ]
+  },
+  "P1": {
+    "feasible_3": 0,
+    "feasible_10": 0,
+    "own_certified_10": 0,
+    "max_seconds_10": 17.208441116999893,
+    "L_values_10": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "P2": {
+    "feasible_3": 0,
+    "feasible_10": 0,
+    "own_certified_10": 0,
+    "max_seconds_10": 15.11686375399995,
+    "L_values_10": [
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

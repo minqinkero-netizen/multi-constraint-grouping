@@ -1,0 +1,16 @@
+{"case": "C_n64_s1001", "budget": 10, "method": "G", "feasible": true, "L": 74, "seconds": 10.037}
+{"case": "C_n64_s1001", "budget": 10, "method": "P2", "feasible": false, "L": null, "seconds": 15.117}
+{"case": "C_n64_s1001", "budget": 10, "method": "P1", "feasible": false, "L": null, "seconds": 10.978}
+{"case": "C_n64_s1001", "budget": 10, "method": "LS", "feasible": true, "L": 74, "seconds": 10.023}
+{"case": "C_n64_s1002", "budget": 10, "method": "P2", "feasible": false, "L": null, "seconds": 10.837}
+{"case": "C_n64_s1002", "budget": 10, "method": "P1", "feasible": false, "L": null, "seconds": 13.861}
+{"case": "C_n64_s1002", "budget": 10, "method": "G", "feasible": true, "L": 71, "seconds": 10.015}
+{"case": "C_n64_s1002", "budget": 10, "method": "LS", "feasible": true, "L": 70, "seconds": 10.028}
+{"case": "C_n64_s1003", "budget": 10, "method": "LS", "feasible": false, "L": null, "seconds": 10.001}
+{"case": "C_n64_s1003", "budget": 10, "method": "P1", "feasible": false, "L": null, "seconds": 11.914}
+{"case": "C_n64_s1003", "budget": 10, "method": "P2", "feasible": false, "L": null, "seconds": 10.083}
+{"case": "C_n64_s1003", "budget": 10, "method": "G", "feasible": false, "L": null, "seconds": 10.001}
+{"case": "C_n64_s1004", "budget": 10, "method": "P2", "feasible": false, "L": null, "seconds": 12.0}
+{"case": "C_n64_s1004", "budget": 10, "method": "LS", "feasible": true, "L": 78, "seconds": 10.021}
+{"case": "C_n64_s1004", "budget": 10, "method": "G", "feasible": true, "L": 78, "seconds": 10.036}
+{"case": "C_n64_s1004", "budget": 10, "method": "P1", "feasible": false, "L": null, "seconds": 17.208}

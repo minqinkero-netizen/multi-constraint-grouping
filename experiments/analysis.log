@@ -1,0 +1,281 @@
+{
+  "aggregate": {
+    "G": {
+      "feasible": 22,
+      "best_known": 10,
+      "shared_certified": 5,
+      "own_certified": 0,
+      "mean_seconds_all_runs": 3.034929785208334,
+      "median_seconds_all_runs": 3.0073364615000173,
+      "max_seconds": 3.3980117460000656,
+      "conditional_mean_regret_percent": 0.6252738603764774
+    },
+    "LS": {
+      "feasible": 22,
+      "best_known": 20,
+      "shared_certified": 7,
+      "own_certified": 0,
+      "mean_seconds_all_runs": 3.0126510323333426,
+      "median_seconds_all_runs": 3.005443917500031,
+      "max_seconds": 3.0746298540000225,
+      "conditional_mean_regret_percent": 0.056589537223340036
+    },
+    "P1": {
+      "feasible": 15,
+      "best_known": 5,
+      "shared_certified": 5,
+      "own_certified": 0,
+      "mean_seconds_all_runs": 3.565630990666667,
+      "median_seconds_all_runs": 3.2475864694999927,
+      "max_seconds": 5.156720037000014,
+      "conditional_mean_regret_percent": 4.62520678021508
+    },
+    "P2": {
+      "feasible": 19,
+      "best_known": 9,
+      "shared_certified": 7,
+      "own_certified": 7,
+      "mean_seconds_all_runs": 2.6171741655000127,
+      "median_seconds_all_runs": 3.0687103089999823,
+      "max_seconds": 3.7836149570000543,
+      "conditional_mean_regret_percent": 5.135941167140802
+    }
+  },
+  "blocks": [
+    {
+      "family": "U",
+      "n": 16,
+      "count": 4,
+      "methods": {
+        "G": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 2,
+          "mean_L_on_all_four_common": 15.0,
+          "mean_time": 3.006121685750003
+        },
+        "LS": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 4,
+          "mean_L_on_all_four_common": 14.25,
+          "mean_time": 3.012269207749995
+        },
+        "P1": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 3,
+          "mean_L_on_all_four_common": 14.5,
+          "mean_time": 3.0435612597499926
+        },
+        "P2": {
+          "feasible": 4,
+          "own_certified": 4,
+          "shared_certified": 4,
+          "mean_L_on_all_four_common": 14.25,
+          "mean_time": 0.95385340750002
+        }
+      },
+      "all_four_common_feasible": 4
+    },
+    {
+      "family": "U",
+      "n": 32,
+      "count": 4,
+      "methods": {
+        "G": {
+          "feasible": 3,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 29.333333333333332,
+          "mean_time": 3.006557116749974
+        },
+        "LS": {
+          "feasible": 3,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 28.666666666666668,
+          "mean_time": 3.003689608749994
+        },
+        "P1": {
+          "feasible": 3,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 36.0,
+          "mean_time": 3.185812059500023
+        },
+        "P2": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 33.333333333333336,
+          "mean_time": 3.0611209547500096
+        }
+      },
+      "all_four_common_feasible": 3
+    },
+    {
+      "family": "U",
+      "n": 64,
+      "count": 4,
+      "methods": {
+        "G": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 36.0,
+          "mean_time": 3.1590496562500334
+        },
+        "LS": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 34.0,
+          "mean_time": 3.0126416457500227
+        },
+        "P1": {
+          "feasible": 1,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 84.0,
+          "mean_time": 3.6384034744999667
+        },
+        "P2": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 78.0,
+          "mean_time": 3.1524812392500223
+        }
+      },
+      "all_four_common_feasible": 1
+    },
+    {
+      "family": "C",
+      "n": 16,
+      "count": 4,
+      "methods": {
+        "G": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 3,
+          "mean_L_on_all_four_common": 12.25,
+          "mean_time": 3.00418521025
+        },
+        "LS": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 3,
+          "mean_L_on_all_four_common": 12.25,
+          "mean_time": 3.007660928000007
+        },
+        "P1": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 2,
+          "mean_L_on_all_four_common": 14.5,
+          "mean_time": 3.0728585909999993
+        },
+        "P2": {
+          "feasible": 4,
+          "own_certified": 3,
+          "shared_certified": 3,
+          "mean_L_on_all_four_common": 12.75,
+          "mean_time": 1.9049195637500418
+        }
+      },
+      "all_four_common_feasible": 4
+    },
+    {
+      "family": "C",
+      "n": 32,
+      "count": 4,
+      "methods": {
+        "G": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 30.0,
+          "mean_time": 3.0199798349999867
+        },
+        "LS": {
+          "feasible": 4,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 30.0,
+          "mean_time": 3.0249112982500037
+        },
+        "P1": {
+          "feasible": 3,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 34.0,
+          "mean_time": 3.606152611749991
+        },
+        "P2": {
+          "feasible": 3,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": 34.0,
+          "mean_time": 3.3242526902499776
+        }
+      },
+      "all_four_common_feasible": 2
+    },
+    {
+      "family": "C",
+      "n": 64,
+      "count": 4,
+      "methods": {
+        "G": {
+          "feasible": 3,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": null,
+          "mean_time": 3.013685207250006
+        },
+        "LS": {
+          "feasible": 3,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": null,
+          "mean_time": 3.0147335055000326
+        },
+        "P1": {
+          "feasible": 0,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": null,
+          "mean_time": 4.846997947500029
+        },
+        "P2": {
+          "feasible": 0,
+          "own_certified": 0,
+          "shared_certified": 0,
+          "mean_L_on_all_four_common": null,
+          "mean_time": 3.3064171375000058
+        }
+      },
+      "all_four_common_feasible": 0
+    }
+  ],
+  "solver_status_counts": {
+    "P1": {
+      "0": 0,
+      "1": 24,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "P2": {
+      "0": 7,
+      "1": 17,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    }
+  },
+  "cases_with_any_solution": 23,
+  "cases_with_shared_optimal_value": 7
+}
+PAIRS {"P1": {"common": 14, "P2_better": 7, "ties": 5, "P2_worse": 2, "mean_difference": -1.5714285714285714, "mean_normalized_percent": -1.4307555567294261}, "G": {"common": 18, "P2_better": 3, "ties": 5, "P2_worse": 10, "mean_difference": 10.277777777777779, "mean_normalized_percent": 4.699222470400784}, "LS": {"common": 18, "P2_better": 1, "ties": 7, "P2_worse": 10, "mean_difference": 11.38888888888889, "mean_normalized_percent": 5.371668057378782}}
