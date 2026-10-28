@@ -1,0 +1,111 @@
+{
+  "purpose": "constructed explanatory example; no algorithm comparison",
+  "capacity_upper": 5,
+  "distance_upper": 0.65,
+  "coordinates": {
+    "1": [
+      0.0,
+      0.0
+    ],
+    "2": [
+      0.2,
+      0.0
+    ],
+    "3": [
+      0.4,
+      0.0
+    ],
+    "4": [
+      0.6,
+      0.0
+    ],
+    "5": [
+      0.0,
+      0.4
+    ],
+    "6": [
+      0.2,
+      0.4
+    ],
+    "7": [
+      0.4,
+      0.4
+    ],
+    "8": [
+      0.6,
+      0.4
+    ]
+  },
+  "partitions": {
+    "A": [
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "B": [
+      [
+        1,
+        2,
+        5,
+        6
+      ],
+      [
+        3,
+        4,
+        7,
+        8
+      ]
+    ]
+  },
+  "rounds": [
+    {
+      "id": 1,
+      "strict": true,
+      "targets": [
+        1,
+        8
+      ],
+      "loss_A": 0,
+      "loss_B": 0
+    },
+    {
+      "id": 2,
+      "strict": true,
+      "targets": [
+        2,
+        7
+      ],
+      "loss_A": 0,
+      "loss_B": 0
+    },
+    {
+      "id": 3,
+      "strict": false,
+      "targets": [
+        1,
+        3
+      ],
+      "loss_A": 1,
+      "loss_B": 0
+    },
+    {
+      "id": 4,
+      "strict": false,
+      "targets": [
+        5,
+        7
+      ],
+      "loss_A": 1,
+      "loss_B": 0
+    }
+  ]
+}
