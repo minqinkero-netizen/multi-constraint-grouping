@@ -1,0 +1,1 @@
+{"configs": [[8, 2, 4], [12, 3, 8], [20, 5, 12]], "replicates": 3, "methods": ["MIP", "LPR"], "budget_seconds": 600, "family": "U", "seed_base": 52000, "role": "separate small consistency checks, not performance-study inputs", "execution_cpu": [2]}

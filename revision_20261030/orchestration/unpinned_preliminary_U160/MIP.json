@@ -1,0 +1,1 @@
+{"method": "MIP", "feasible": false, "L": null, "H": null, "labels": null, "budget": 599.5, "lower_bound": 39, "status": "started", "seed": 62000, "trace": [], "worker_seconds": 0.00867789600033575, "model_size": {"binary": 6400, "continuous": 640, "rows": 22400, "nonzeros": 95960, "distance_pairs": 523}, "build_seconds": 0.008677003000229888}

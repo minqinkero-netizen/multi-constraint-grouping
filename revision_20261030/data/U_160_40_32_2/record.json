@@ -1,0 +1,1 @@
+{"name": "U_160_40_32_2", "config": [160, 40, 32], "family": "U", "replicate": 2, "seed": 42001, "method_order": ["LS", "LPR", "G", "MIP"]}

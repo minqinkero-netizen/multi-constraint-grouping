@@ -1,0 +1,1 @@
+{"method": "LS", "feasible": false, "L": null, "H": null, "labels": null, "budget": 599.5, "lower_bound": 34, "status": "completed", "seed": 53102, "trace": [], "worker_seconds": 51.065140189000886, "attempts": 32, "total_seconds": 51.873105753000345, "watchdog_timeout": false, "process_error": null, "end_to_end_limit": 600, "execution_batch": "scale_jobs", "execution_cpu": 0}
