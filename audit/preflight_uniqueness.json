@@ -1,0 +1,474 @@
+{
+  "unique_input_names": 18,
+  "unique_input_seeds": 18,
+  "unique_input_hashes": 18,
+  "complete_records": 77,
+  "unique_full_run_keys": 77,
+  "unique_result_file_hashes": 77,
+  "duplicated_runs": 0,
+  "solver_calls": 0,
+  "baseline_records": [
+    {
+      "instance": "C_80_20_16_1",
+      "method": "G",
+      "path": "code/data/C_80_20_16_1/G.json",
+      "sha256": "3ad291af2ea69074047fdb7a972849093022165512b2bc6fc13bdeb3d1c59bed"
+    },
+    {
+      "instance": "C_80_20_16_1",
+      "method": "LS",
+      "path": "code/data/C_80_20_16_1/LS.json",
+      "sha256": "a8f0b568a3fef4b76716f75a921a6155cf82c50b8a53cd6b35eefa0bbcee4607"
+    },
+    {
+      "instance": "C_80_20_16_1",
+      "method": "SLS",
+      "path": "code/data/C_80_20_16_1/SLS.json",
+      "sha256": "a5be790ad941103404a81a88aa05641e199e0a74b97a55b88d7789a13cb56646"
+    },
+    {
+      "instance": "C_80_20_16_1",
+      "method": "LPR",
+      "path": "code/data/C_80_20_16_1/LPR.json",
+      "sha256": "e4ff5f67af7261022538513053c8e8805969b5ed4fc2d4f74aa6563ff339b719"
+    },
+    {
+      "instance": "C_80_20_16_2",
+      "method": "G",
+      "path": "code/data/C_80_20_16_2/G.json",
+      "sha256": "ec138be8bdcfcb4510467838427ed6c430d83c5347f57fb0c4563190a5716645"
+    },
+    {
+      "instance": "C_80_20_16_2",
+      "method": "LS",
+      "path": "code/data/C_80_20_16_2/LS.json",
+      "sha256": "47385fca94de4b592b3fd6a7e3c22a0fc8c55d90990be82e238e4e6301c6ddb8"
+    },
+    {
+      "instance": "C_80_20_16_2",
+      "method": "SLS",
+      "path": "code/data/C_80_20_16_2/SLS.json",
+      "sha256": "f72178a7c9ccfaad575f4bfb4deebf1a83119bb30bdb83d1d586b9244bc33b49"
+    },
+    {
+      "instance": "C_80_20_16_2",
+      "method": "LPR",
+      "path": "code/data/C_80_20_16_2/LPR.json",
+      "sha256": "b0c34d6a31ed562a70e5315a79c16a9210d22906de855c88ae10f2117cd464c2"
+    },
+    {
+      "instance": "C_80_20_16_3",
+      "method": "G",
+      "path": "code/data/C_80_20_16_3/G.json",
+      "sha256": "b44005aa09ed1517af2d1094def697ab48823f5ea17b81b0fcc1148dc6d21d0d"
+    },
+    {
+      "instance": "C_80_20_16_3",
+      "method": "LS",
+      "path": "code/data/C_80_20_16_3/LS.json",
+      "sha256": "f605ddd98ad3b2640ccb0bc89e9b021098c4dce2771532e7a4d5760ddf43f268"
+    },
+    {
+      "instance": "C_80_20_16_3",
+      "method": "SLS",
+      "path": "code/data/C_80_20_16_3/SLS.json",
+      "sha256": "71031bd5339a77480020c4664ce887dee920d8715dc0a40d1e62b5f3bc1a4047"
+    },
+    {
+      "instance": "C_80_20_16_3",
+      "method": "LPR",
+      "path": "code/data/C_80_20_16_3/LPR.json",
+      "sha256": "18350aebacea32741770d38753db7153268bf9dc299d9f350d5709b3a4efb31c"
+    },
+    {
+      "instance": "U_80_20_16_1",
+      "method": "G",
+      "path": "code/data/U_80_20_16_1/G.json",
+      "sha256": "0cc588170a9f744acc11e26c0939f53b747adf3e0d23271d1f3fb32c5e9062d1"
+    },
+    {
+      "instance": "U_80_20_16_1",
+      "method": "LS",
+      "path": "code/data/U_80_20_16_1/LS.json",
+      "sha256": "e963c72efbcf695fad98a5446a09a9e3f44e9ab9757ed68c8f9e1035cd87dab7"
+    },
+    {
+      "instance": "U_80_20_16_1",
+      "method": "SLS",
+      "path": "code/data/U_80_20_16_1/SLS.json",
+      "sha256": "024196350c9a0e593537570a5765583955057bce6ac11002df23e4270d124fb3"
+    },
+    {
+      "instance": "U_80_20_16_1",
+      "method": "MIP",
+      "path": "code/data/U_80_20_16_1/MIP.json",
+      "sha256": "5d3c6974f6021fee76a345767bf92b497e576f8a41ab7d05b1fffc4a0ea2ef1e"
+    },
+    {
+      "instance": "U_80_20_16_1",
+      "method": "LPR",
+      "path": "code/data/U_80_20_16_1/LPR.json",
+      "sha256": "2b743ddd7942915d51c788d164969d159ddd3ee7a3d5df76ff1f77ff9ff15813"
+    },
+    {
+      "instance": "U_80_20_16_2",
+      "method": "G",
+      "path": "code/data/U_80_20_16_2/G.json",
+      "sha256": "c5c8464095df822df9f20a592363f7dd519c715fe401bb8f1581aba4c21051db"
+    },
+    {
+      "instance": "U_80_20_16_2",
+      "method": "LS",
+      "path": "code/data/U_80_20_16_2/LS.json",
+      "sha256": "910735cf05f2b47b6cc3b67733229e49b89f26125f558a39e0b1e233e675c67a"
+    },
+    {
+      "instance": "U_80_20_16_2",
+      "method": "SLS",
+      "path": "code/data/U_80_20_16_2/SLS.json",
+      "sha256": "c5882289b12b2b5d4ff7d83f2f68cf6e77da7639d5aa01d1d98b49b4777f0871"
+    },
+    {
+      "instance": "U_80_20_16_2",
+      "method": "LPR",
+      "path": "code/data/U_80_20_16_2/LPR.json",
+      "sha256": "6ba4257668755066d77111eeb9fe8aca4f31dcdec4370f78be38b599af1b5458"
+    },
+    {
+      "instance": "U_80_20_16_3",
+      "method": "G",
+      "path": "code/data/U_80_20_16_3/G.json",
+      "sha256": "30a5fad15c51ddc417f86fb48ec381f43fda8205bd76354a368802f5129f7614"
+    },
+    {
+      "instance": "U_80_20_16_3",
+      "method": "LS",
+      "path": "code/data/U_80_20_16_3/LS.json",
+      "sha256": "cfaae223e770bf76346a5ceadfa82ed7c4e7cf1b8f8602bd24383d404cd11e8d"
+    },
+    {
+      "instance": "U_80_20_16_3",
+      "method": "SLS",
+      "path": "code/data/U_80_20_16_3/SLS.json",
+      "sha256": "b2ec709a36c14f2594982dd1969a4173897bacf26c06412e974f6e22bccbe349"
+    },
+    {
+      "instance": "U_80_20_16_3",
+      "method": "MIP",
+      "path": "code/data/U_80_20_16_3/MIP.json",
+      "sha256": "bc5e1e7588751840e089f2b942433e77f43502cc08a17ac5b644ce52b67860f2"
+    },
+    {
+      "instance": "U_80_20_16_3",
+      "method": "LPR",
+      "path": "code/data/U_80_20_16_3/LPR.json",
+      "sha256": "1720ed7e5672c290eb0f7b6729dd28f3776b1be7de2e61e1a2063281a60fa07c"
+    },
+    {
+      "instance": "C_160_40_32_1",
+      "method": "G",
+      "path": "code/data/C_160_40_32_1/G.json",
+      "sha256": "05904cd45333d60692d17cde781db8ccc0b80d96ee966dd539cb6d58a38b7bab"
+    },
+    {
+      "instance": "C_160_40_32_1",
+      "method": "LS",
+      "path": "code/data/C_160_40_32_1/LS.json",
+      "sha256": "a9efc208906ce664b034aa3145199d7b99a38b2fd00b8f658695e909017df9ec"
+    },
+    {
+      "instance": "C_160_40_32_1",
+      "method": "SLS",
+      "path": "code/data/C_160_40_32_1/SLS.json",
+      "sha256": "6c3175eb3f2d58a113b05ebff788eaf8c507790c6aea6684e2c89ae0cdab62c2"
+    },
+    {
+      "instance": "C_160_40_32_1",
+      "method": "LPR",
+      "path": "code/data/C_160_40_32_1/LPR.json",
+      "sha256": "b39e4775e07b5d7c698285e49ecdd51fcdd841d822d699548571a1b5bf4c9a0e"
+    },
+    {
+      "instance": "C_160_40_32_2",
+      "method": "G",
+      "path": "code/data/C_160_40_32_2/G.json",
+      "sha256": "38dbc92d11866cdfb56c9e85b0d7563f5a449be559a50bf5548525dd9d53b07d"
+    },
+    {
+      "instance": "C_160_40_32_2",
+      "method": "LS",
+      "path": "code/data/C_160_40_32_2/LS.json",
+      "sha256": "35b7f43e395285ad79be1f27b0e0dba267fab307d276a4023a2a907c9cf58509"
+    },
+    {
+      "instance": "C_160_40_32_2",
+      "method": "SLS",
+      "path": "code/data/C_160_40_32_2/SLS.json",
+      "sha256": "50b453698471020ffcb430498c6fb3b95ad5278c2ec006e62110b5ada0880d73"
+    },
+    {
+      "instance": "C_160_40_32_2",
+      "method": "LPR",
+      "path": "code/data/C_160_40_32_2/LPR.json",
+      "sha256": "df41d612e1c3040c75385f08bedefc50fbbb99657ba04a00976874d46f4a49f2"
+    },
+    {
+      "instance": "C_160_40_32_3",
+      "method": "G",
+      "path": "code/data/C_160_40_32_3/G.json",
+      "sha256": "46dec4b0c6a9453b826e0b2dc2e8d6a04ccf560058c49da1863fa87a578c469f"
+    },
+    {
+      "instance": "C_160_40_32_3",
+      "method": "LS",
+      "path": "code/data/C_160_40_32_3/LS.json",
+      "sha256": "71d1c3059f48f5355a751b2511825def56bcc3688fbc695d0dc4a58582eb4af8"
+    },
+    {
+      "instance": "C_160_40_32_3",
+      "method": "SLS",
+      "path": "code/data/C_160_40_32_3/SLS.json",
+      "sha256": "e1ddf64dbe99abffd025f2f1a732005fc87baf98b8631813f58c40903f63a47a"
+    },
+    {
+      "instance": "C_160_40_32_3",
+      "method": "LPR",
+      "path": "code/data/C_160_40_32_3/LPR.json",
+      "sha256": "378629d2e5c9f6a93c6a6a6050b596356c49dcb7f8c35f89bc379da9632bde70"
+    },
+    {
+      "instance": "U_160_40_32_1",
+      "method": "G",
+      "path": "code/data/U_160_40_32_1/G.json",
+      "sha256": "c4999a0842167a3eb11cacbbf2628aac6060617b87c50cda87da98106a09fcbc"
+    },
+    {
+      "instance": "U_160_40_32_1",
+      "method": "LS",
+      "path": "code/data/U_160_40_32_1/LS.json",
+      "sha256": "5115d05962a2179d9d6f26b9c066ce3b9d1355dc3892ccde085e2a5fdd31b3f5"
+    },
+    {
+      "instance": "U_160_40_32_1",
+      "method": "SLS",
+      "path": "code/data/U_160_40_32_1/SLS.json",
+      "sha256": "a5b4151f76295d9227272d870c12e22f333649b018eb2a5437faeb9988ea8c6f"
+    },
+    {
+      "instance": "U_160_40_32_1",
+      "method": "MIP",
+      "path": "code/data/U_160_40_32_1/MIP.json",
+      "sha256": "189093bb92614761007f16776f956a291e60022d3bd8e4f11b6fba11a0ba44f7"
+    },
+    {
+      "instance": "U_160_40_32_1",
+      "method": "LPR",
+      "path": "code/data/U_160_40_32_1/LPR.json",
+      "sha256": "1b2e86a21d46a5c39de2c56e6a8881e4c7977c8e4eda3ac4f99fa24584cc5391"
+    },
+    {
+      "instance": "U_160_40_32_2",
+      "method": "G",
+      "path": "code/data/U_160_40_32_2/G.json",
+      "sha256": "33cf3d27a021c4cd8739fd8e565cff6c718b10d814e59cfbfcafb46db23fce54"
+    },
+    {
+      "instance": "U_160_40_32_2",
+      "method": "LS",
+      "path": "code/data/U_160_40_32_2/LS.json",
+      "sha256": "56772dda4ee85a463fff3124edf8a1d8156f928a56eca22ebe30e9a187c3c96c"
+    },
+    {
+      "instance": "U_160_40_32_2",
+      "method": "SLS",
+      "path": "code/data/U_160_40_32_2/SLS.json",
+      "sha256": "edb3899c809165c15bad7a019bd7d05de7221f6ae7db92c42aca4605b2bceaa2"
+    },
+    {
+      "instance": "U_160_40_32_2",
+      "method": "MIP",
+      "path": "code/data/U_160_40_32_2/MIP.json",
+      "sha256": "4046c1c73a35020a7dbdde8ddb4126756bd5382327f190338bb8f86360ccac3f"
+    },
+    {
+      "instance": "U_160_40_32_2",
+      "method": "LPR",
+      "path": "code/data/U_160_40_32_2/LPR.json",
+      "sha256": "ec90e79a67c03b0a81706b9e9ecf49c23c6f3aad4770c706fd93049dfddad2f8"
+    },
+    {
+      "instance": "U_160_40_32_3",
+      "method": "G",
+      "path": "code/data/U_160_40_32_3/G.json",
+      "sha256": "4d7557f9b9837fd33279df8e24553761a2b6de988ae50240130c8ef5350fcbd0"
+    },
+    {
+      "instance": "U_160_40_32_3",
+      "method": "LS",
+      "path": "code/data/U_160_40_32_3/LS.json",
+      "sha256": "b7a24f839dea540383b0de13e375c4fd03ccb8c55f605291bdcb066dce9d6158"
+    },
+    {
+      "instance": "U_160_40_32_3",
+      "method": "SLS",
+      "path": "code/data/U_160_40_32_3/SLS.json",
+      "sha256": "10fb5e1a6a36c7b063a0756eadf0f592e8416f08fb5adc531f300e20e507d2c4"
+    },
+    {
+      "instance": "U_160_40_32_3",
+      "method": "MIP",
+      "path": "code/data/U_160_40_32_3/MIP.json",
+      "sha256": "d0751f239e53f2a89362467c7818aab61379668a28a30bca64c4705e8afbd692"
+    },
+    {
+      "instance": "U_160_40_32_3",
+      "method": "LPR",
+      "path": "code/data/U_160_40_32_3/LPR.json",
+      "sha256": "7b3a0305d005c34aa05d8af7cf1b0303bd7fe87bbc05ce9642fed55a50c1a10c"
+    },
+    {
+      "instance": "C_320_80_48_1",
+      "method": "G",
+      "path": "code/data/C_320_80_48_1/G.json",
+      "sha256": "5ab961bc9e60665bbb415c2fe1bcff3aea4a1daa4ffe3dba72620e76d18ee616"
+    },
+    {
+      "instance": "C_320_80_48_1",
+      "method": "LS",
+      "path": "code/data/C_320_80_48_1/LS.json",
+      "sha256": "dc28d9a299ccbc344f460fdc79e2196d4278981937a7ab0c45a8e5fb901ae121"
+    },
+    {
+      "instance": "C_320_80_48_1",
+      "method": "SLS",
+      "path": "code/data/C_320_80_48_1/SLS.json",
+      "sha256": "598778b4b533a01ccd9074104a9f6fb133ff91c0b0854b019f32e71ae930ebd7"
+    },
+    {
+      "instance": "C_320_80_48_1",
+      "method": "LPR",
+      "path": "code/data/C_320_80_48_1/LPR.json",
+      "sha256": "c3abdcac9ce6a4eae812a85344ac1bc782b137fc16b322fc0833b1621212a8d9"
+    },
+    {
+      "instance": "C_320_80_48_2",
+      "method": "G",
+      "path": "code/data/C_320_80_48_2/G.json",
+      "sha256": "cdb3d55b6af05308b4cd65f067acb39f6ddc73a5f90bd5245e30859a1ce7e350"
+    },
+    {
+      "instance": "C_320_80_48_2",
+      "method": "LS",
+      "path": "code/data/C_320_80_48_2/LS.json",
+      "sha256": "75a5f6c80f9dd95bc8032cd9b2ea711f37c9923eb559d70683309d45fd7454b9"
+    },
+    {
+      "instance": "C_320_80_48_2",
+      "method": "SLS",
+      "path": "code/data/C_320_80_48_2/SLS.json",
+      "sha256": "79dadf961fba996c731585e486af64255b3e76f024b561c62eaaa85855dfc419"
+    },
+    {
+      "instance": "C_320_80_48_2",
+      "method": "LPR",
+      "path": "code/data/C_320_80_48_2/LPR.json",
+      "sha256": "6c1a21f4c22263a2aee464f8b9562ea2a21426ccc230072686d91a5c7fdc2c22"
+    },
+    {
+      "instance": "C_320_80_48_3",
+      "method": "G",
+      "path": "code/data/C_320_80_48_3/G.json",
+      "sha256": "480b682e19eff142ae815bfb97cb90951fc404e506f9e735cd6d82c288b0b3af"
+    },
+    {
+      "instance": "C_320_80_48_3",
+      "method": "LS",
+      "path": "code/data/C_320_80_48_3/LS.json",
+      "sha256": "b894b42ba9be91f6879199357ce20b1ed199cb3f68243b0e70dbb048d3dbf62e"
+    },
+    {
+      "instance": "C_320_80_48_3",
+      "method": "SLS",
+      "path": "code/data/C_320_80_48_3/SLS.json",
+      "sha256": "5b6ddd0dfa95e45b275401224073eed85531618d43faec74f144c250180dc244"
+    },
+    {
+      "instance": "C_320_80_48_3",
+      "method": "LPR",
+      "path": "code/data/C_320_80_48_3/LPR.json",
+      "sha256": "b956e387f5abd08e5b32a0058ee4213259ef6daaa561b687746fd0614105b0b1"
+    },
+    {
+      "instance": "U_320_80_48_1",
+      "method": "G",
+      "path": "code/data/U_320_80_48_1/G.json",
+      "sha256": "a092d0041125c1267faea37925c9b9a80b7951be6fd7095eab7a5b7b2f9919b4"
+    },
+    {
+      "instance": "U_320_80_48_1",
+      "method": "LS",
+      "path": "code/data/U_320_80_48_1/LS.json",
+      "sha256": "682b6fe939f07d5b085d3503981325a2993acf766a2c0c9dfbde88e2593fbf0e"
+    },
+    {
+      "instance": "U_320_80_48_1",
+      "method": "SLS",
+      "path": "code/data/U_320_80_48_1/SLS.json",
+      "sha256": "10ad88c12056621f58a65b88bad49ca49eaed6c9fa420c62d2c5bd7f8f2b5fb2"
+    },
+    {
+      "instance": "U_320_80_48_1",
+      "method": "LPR",
+      "path": "code/data/U_320_80_48_1/LPR.json",
+      "sha256": "ec8f3133b2c4e4d92cb8e267259a63645c08329f7464457cc0b47b300053102b"
+    },
+    {
+      "instance": "U_320_80_48_2",
+      "method": "G",
+      "path": "code/data/U_320_80_48_2/G.json",
+      "sha256": "b7a1887bc782ad268cfe9a9367b7da5b7288fbadb9d8ef6d48f8ee9914f797f6"
+    },
+    {
+      "instance": "U_320_80_48_2",
+      "method": "LS",
+      "path": "code/data/U_320_80_48_2/LS.json",
+      "sha256": "285aad49ad9cac6060f065ed6cdaad7d5e701f9918822174baece2fbdeb28ba6"
+    },
+    {
+      "instance": "U_320_80_48_2",
+      "method": "SLS",
+      "path": "code/data/U_320_80_48_2/SLS.json",
+      "sha256": "80305fd90c03f7defcd85034c930ab78f47ff0f9ab0d463db1bf9ee598318a8a"
+    },
+    {
+      "instance": "U_320_80_48_2",
+      "method": "MIP",
+      "path": "code/data/U_320_80_48_2/MIP.json",
+      "sha256": "c83a09bb20af432daaadb21cacb6a6c189d4a0980c9a813420afea2dbfd54eae"
+    },
+    {
+      "instance": "U_320_80_48_3",
+      "method": "G",
+      "path": "code/data/U_320_80_48_3/G.json",
+      "sha256": "05287dcc0693a323d8f3a7907ae4e61e81c118980719d8ec72a3652f58d9041e"
+    },
+    {
+      "instance": "U_320_80_48_3",
+      "method": "LS",
+      "path": "code/data/U_320_80_48_3/LS.json",
+      "sha256": "06c2208dc589e8a300151993cca361fe919efe7bfe16318aa8c53b2fed14cbf1"
+    },
+    {
+      "instance": "U_320_80_48_3",
+      "method": "SLS",
+      "path": "code/data/U_320_80_48_3/SLS.json",
+      "sha256": "fe791ab49f18a37b8e400da63a5a3c74a2060cc921904e9384727e64b358bf0c"
+    },
+    {
+      "instance": "U_320_80_48_3",
+      "method": "LPR",
+      "path": "code/data/U_320_80_48_3/LPR.json",
+      "sha256": "01647c98f9dfd02a8a6efe084e649a872aca9129d45d32705b89fb089fd6ed23"
+    }
+  ]
+}

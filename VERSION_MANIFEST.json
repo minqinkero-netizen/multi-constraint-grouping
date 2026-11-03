@@ -1,0 +1,12 @@
+{
+  "version": "final-experiments-20261103",
+  "main_runs": 90,
+  "main_inputs": 18,
+  "main_methods": ["G", "LS", "SLS", "MIP", "LPR"],
+  "supplemental": ["shared_LP", "ablation", "radius_sensitivity", "small_exact"],
+  "main_source": "data/results.json",
+  "main_summary": "data/summary.json",
+  "supplemental_package": "experiments/latest_complete_experiment_package_20261102.zip",
+  "paper_basis": "user-supplied 43-page PDF; no Overleaf source claimed",
+  "created_utc": "2026-11-03T00:00:00Z"
+}
