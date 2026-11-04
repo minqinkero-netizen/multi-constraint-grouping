@@ -1,0 +1,278 @@
+{
+  "state": "audit_complete_no_experiments_started",
+  "checkpoint_branch": "experiment-recovery-20261102",
+  "main_base_commit": "d9717d25e95a3152fae78a862670c3670b8d0eb0",
+  "protocol_version": "2026-10-31-r1",
+  "main_plan": "18 inputs (2 families x 3 sizes x 3 replicates) x 5 methods = 90 runs",
+  "verified_completed": 77,
+  "remaining_main": [
+    {
+      "instance": "C_80_20_16_1",
+      "method": "MIP",
+      "input_seed": 41100,
+      "algorithm_seed": 111100,
+      "path": "code/data/C_80_20_16_1/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "C_80_20_16_2",
+      "method": "MIP",
+      "input_seed": 41101,
+      "algorithm_seed": 111101,
+      "path": "code/data/C_80_20_16_2/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "C_80_20_16_3",
+      "method": "MIP",
+      "input_seed": 41102,
+      "algorithm_seed": 111102,
+      "path": "code/data/C_80_20_16_3/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "U_80_20_16_2",
+      "method": "MIP",
+      "input_seed": 41001,
+      "algorithm_seed": 111001,
+      "path": "code/data/U_80_20_16_2/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "C_160_40_32_1",
+      "method": "MIP",
+      "input_seed": 42100,
+      "algorithm_seed": 112100,
+      "path": "code/data/C_160_40_32_1/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "C_160_40_32_2",
+      "method": "MIP",
+      "input_seed": 42101,
+      "algorithm_seed": 112101,
+      "path": "code/data/C_160_40_32_2/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "C_160_40_32_3",
+      "method": "MIP",
+      "input_seed": 42102,
+      "algorithm_seed": 112102,
+      "path": "code/data/C_160_40_32_3/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "C_320_80_48_1",
+      "method": "MIP",
+      "input_seed": 43100,
+      "algorithm_seed": 113100,
+      "path": "code/data/C_320_80_48_1/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "C_320_80_48_2",
+      "method": "MIP",
+      "input_seed": 43101,
+      "algorithm_seed": 113101,
+      "path": "code/data/C_320_80_48_2/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "C_320_80_48_3",
+      "method": "MIP",
+      "input_seed": 43102,
+      "algorithm_seed": 113102,
+      "path": "code/data/C_320_80_48_3/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "U_320_80_48_1",
+      "method": "MIP",
+      "input_seed": 43000,
+      "algorithm_seed": 113000,
+      "path": "code/data/U_320_80_48_1/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    },
+    {
+      "instance": "U_320_80_48_2",
+      "method": "LPR",
+      "input_seed": 43001,
+      "algorithm_seed": 113001,
+      "path": "code/data/U_320_80_48_2/LPR.json",
+      "budget_seconds": 600,
+      "state": "interrupted_checkpoint",
+      "checked": false,
+      "sha256": "4cdfc42ad21930b83c314b85edd79fbada4fb751fa376d67c8b4b014cd81be25",
+      "status": "started",
+      "total_seconds": null,
+      "feasible": false,
+      "L": null,
+      "H": null,
+      "reason": "No parent termination/timing or run_key; not a completed run"
+    },
+    {
+      "instance": "U_320_80_48_3",
+      "method": "MIP",
+      "input_seed": 43002,
+      "algorithm_seed": 113002,
+      "path": "code/data/U_320_80_48_3/MIP.json",
+      "budget_seconds": 600,
+      "state": "absent",
+      "checked": false,
+      "reason": "No standalone result file"
+    }
+  ],
+  "main_budget_seconds": 600,
+  "exit_reserve_seconds": 30,
+  "algorithm_seed": "input seed + 70000 for every method; solver internal random_seed=0",
+  "input_seed_ranges": {
+    "U80": [
+      41000,
+      41001,
+      41002
+    ],
+    "C80": [
+      41100,
+      41101,
+      41102
+    ],
+    "U160": [
+      42000,
+      42001,
+      42002
+    ],
+    "C160": [
+      42100,
+      42101,
+      42102
+    ],
+    "U320": [
+      43000,
+      43001,
+      43002
+    ],
+    "C320": [
+      43100,
+      43101,
+      43102
+    ]
+  },
+  "frozen_hashes": {
+    "implementation_sha256": "e947c68dd59af15cc9fb00f6362c59e3e5d612e16508686a5975c1d2b1321b5b",
+    "protocol_sha256": "339ea4c329c776129009303ddd8c48b2119b224fdf9c410a2c2fd13bea690268"
+  },
+  "scheduler": {
+    "resume_workers": 1,
+    "cpu_pinned": true,
+    "solver_threads": 1,
+    "frozen_protocol_initial_workers": 3,
+    "historical_schedule_changes_preserved_in": "code/scheduling_resume.json"
+  },
+  "dependency_status": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "highspy": "1.13.1",
+    "globally_installed_highspy": false,
+    "existing_package_import_verified": true,
+    "optimization_calls_during_check": 0,
+    "existing_package_path": "/workspace/scratch/3cb61f3de35c/revision_20261031/runtime_dependencies"
+  },
+  "supplemental": {
+    "shared_lp": {
+      "inputs": 20,
+      "budget_seconds": 120,
+      "saved_runs": 0
+    },
+    "ablation": {
+      "planned_combinations": 180,
+      "budget_seconds": 30,
+      "saved_runs": 0,
+      "note": "LP-G and LP-N are marked not started if shared LP is not optimal; random repeats are not independent inputs"
+    },
+    "radius": {
+      "base_inputs": 6,
+      "factors": [
+        1.0,
+        1.15,
+        1.3
+      ],
+      "methods": [
+        "LS",
+        "SLS"
+      ],
+      "planned_runs": 36,
+      "budget_seconds": 30,
+      "saved_runs": 0
+    },
+    "scenarios": {
+      "independent_small_inputs": 9,
+      "explanatory_scenarios": 3,
+      "methods": [
+        "MIP",
+        "LPR"
+      ],
+      "planned_runs": 24,
+      "budget_seconds": 600,
+      "saved_runs_for_current_protocol": 0
+    }
+  },
+  "next_steps": [
+    "Report and confirm recovery findings before any experiment execution.",
+    "Create a new execution copy of this checkpoint; preserve all 77 verified records.",
+    "Archive the single interrupted U_320_80_48_2/LPR.json outside data in the execution copy, retaining its original bytes and hash.",
+    "Confirm dependency version, core hashes, input hashes, seeds and single-worker schedule immediately before launch.",
+    "Resume only the 13 remaining main tasks; retain complete failures/time-limit results and rebuild aggregate from standalone files.",
+    "Persist and verify incremental checkpoints after each small batch.",
+    "Only after the main batch is complete, run supplemental stages separately, audit, and then prepare paper changes for later review."
+  ],
+  "forbidden_in_this_recovery_pass": [
+    "Start optimizer or background monitors",
+    "Modify main branch",
+    "Replace published paper PDF or LaTeX ZIP",
+    "Mix 2026-10-30 records into 2026-10-31 performance tables"
+  ],
+  "public_upload_status": {
+    "branch_created": true,
+    "experiment_files_uploaded": false,
+    "checkpoint_commit_created": false,
+    "automatic_approval": "rejected_public_full_checkpoint_payload",
+    "reason": "Public repository; explicit authorization for this exact broad payload was not established",
+    "alternative": "Save complete recovered checkpoint privately as one downloadable ZIP",
+    "main_branch_unchanged": true
+  }
+}

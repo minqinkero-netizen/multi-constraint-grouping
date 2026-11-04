@@ -1,0 +1,1 @@
+{"status": "building", "feasible": false, "count_bound": 23, "model_size": {"binary": 3600, "continuous": 360, "rows": 6240, "nonzeros": 34710, "distance_pairs": 179}}

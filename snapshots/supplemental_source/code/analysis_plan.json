@@ -1,0 +1,23 @@
+{
+  "version": "2026-10-31",
+  "frozen_before_extra_execution": true,
+  "paired_tests": [
+    [
+      "LP-G",
+      "LP-N"
+    ],
+    [
+      "LP-G",
+      "UNI"
+    ],
+    [
+      "LP-N",
+      "UNI"
+    ]
+  ],
+  "aggregation": "mean of paired common-feasible repeat differences inside each independent input",
+  "test": "two-sided exact sign test; zeros excluded from sign trials but reported; Holm adjustment across the three prespecified tests",
+  "success": "raw counts over 60 repeats per variant with number of independent inputs separately stated",
+  "means": "conditional feasible-run obj; all-run time; sample standard deviations; no SD with singleton",
+  "small_sample_caution": true
+}

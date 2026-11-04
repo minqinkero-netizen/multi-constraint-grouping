@@ -1,0 +1,314 @@
+{
+  "audited_utc": "2026-11-02T08:50:22.585677+00:00",
+  "solver_runs_started": 0,
+  "protocol_version": "2026-10-31-r1",
+  "implementation_sha256": "e947c68dd59af15cc9fb00f6362c59e3e5d612e16508686a5975c1d2b1321b5b",
+  "protocol_sha256": "339ea4c329c776129009303ddd8c48b2119b224fdf9c410a2c2fd13bea690268",
+  "expected_main_runs": 90,
+  "ended_standalone_records": 90,
+  "verified_completed_runs": 90,
+  "remaining_main_runs": 0,
+  "completed_by_method": {
+    "G": 18,
+    "LS": 18,
+    "SLS": 18,
+    "MIP": 18,
+    "LPR": 18
+  },
+  "feasible_by_method": {
+    "G": 14,
+    "LS": 14,
+    "SLS": 12,
+    "MIP": 17,
+    "LPR": 12
+  },
+  "status_counts": {
+    "work_limit": 54,
+    "limit_feasible": 15,
+    "repaired_and_improved": 12,
+    "optimal": 2,
+    "LP_limit_no_optimum": 6,
+    "forced_stop_unknown": 1
+  },
+  "witness_checks": [
+    {
+      "instance": "C_80_20_16_1",
+      "checked": true,
+      "L": 50
+    },
+    {
+      "instance": "C_80_20_16_2",
+      "checked": true,
+      "L": 44
+    },
+    {
+      "instance": "C_80_20_16_3",
+      "checked": true,
+      "L": 56
+    },
+    {
+      "instance": "U_80_20_16_1",
+      "checked": true,
+      "L": 44
+    },
+    {
+      "instance": "U_80_20_16_2",
+      "checked": true,
+      "L": 57
+    },
+    {
+      "instance": "U_80_20_16_3",
+      "checked": true,
+      "L": 34
+    },
+    {
+      "instance": "C_160_40_32_1",
+      "checked": true,
+      "L": 215
+    },
+    {
+      "instance": "C_160_40_32_2",
+      "checked": true,
+      "L": 183
+    },
+    {
+      "instance": "C_160_40_32_3",
+      "checked": true,
+      "L": 195
+    },
+    {
+      "instance": "U_160_40_32_1",
+      "checked": true,
+      "L": 218
+    },
+    {
+      "instance": "U_160_40_32_2",
+      "checked": true,
+      "L": 190
+    },
+    {
+      "instance": "U_160_40_32_3",
+      "checked": true,
+      "L": 222
+    },
+    {
+      "instance": "C_320_80_48_1",
+      "checked": true,
+      "L": 540
+    },
+    {
+      "instance": "C_320_80_48_2",
+      "checked": true,
+      "L": 604
+    },
+    {
+      "instance": "C_320_80_48_3",
+      "checked": true,
+      "L": 587
+    },
+    {
+      "instance": "U_320_80_48_1",
+      "checked": true,
+      "L": 592
+    },
+    {
+      "instance": "U_320_80_48_2",
+      "checked": true,
+      "L": 665
+    },
+    {
+      "instance": "U_320_80_48_3",
+      "checked": true,
+      "L": 592
+    }
+  ],
+  "lp_checks": [
+    {
+      "instance": "C_80_20_16_1",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 7.327471962526033e-14,
+      "lp_objective": 9.999999999999835,
+      "count_bound": 10
+    },
+    {
+      "instance": "C_80_20_16_2",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 2.5202062658991053e-14,
+      "lp_objective": 7.000000000000029,
+      "count_bound": 7
+    },
+    {
+      "instance": "C_80_20_16_3",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 2.4424906541753444e-14,
+      "lp_objective": 21.999999999999865,
+      "count_bound": 22
+    },
+    {
+      "instance": "U_80_20_16_1",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 1.1879386363489175e-14,
+      "lp_objective": 4.999999999999948,
+      "count_bound": 5
+    },
+    {
+      "instance": "U_80_20_16_2",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 2.930988785010413e-14,
+      "lp_objective": 21.99999999999996,
+      "count_bound": 22
+    },
+    {
+      "instance": "U_80_20_16_3",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 1.2434497875801753e-14,
+      "lp_objective": 2.000000000000001,
+      "count_bound": 2
+    },
+    {
+      "instance": "C_160_40_32_1",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 3.352873534367973e-13,
+      "lp_objective": 35.99999999999863,
+      "count_bound": 36
+    },
+    {
+      "instance": "C_160_40_32_2",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 9.044764937016225e-12,
+      "lp_objective": 13.999999999997955,
+      "count_bound": 14
+    },
+    {
+      "instance": "C_160_40_32_3",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 3.0785374249830966e-12,
+      "lp_objective": 21.999999999995975,
+      "count_bound": 22
+    },
+    {
+      "instance": "U_160_40_32_1",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 1.0698109065288008e-12,
+      "lp_objective": 39.000000000002615,
+      "count_bound": 39
+    },
+    {
+      "instance": "U_160_40_32_2",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 9.119371924271036e-13,
+      "lp_objective": 22.00000000000226,
+      "count_bound": 22
+    },
+    {
+      "instance": "U_160_40_32_3",
+      "method": "LPR",
+      "checked": true,
+      "max_constraint_residual": 3.232969447708456e-13,
+      "lp_objective": 45.99999999999891,
+      "count_bound": 46
+    }
+  ],
+  "audit_errors": [],
+  "aggregate_record_count": 90,
+  "aggregate_complete_flag": true,
+  "aggregate_mismatches": [],
+  "completed_not_in_aggregate": [],
+  "archived_attempts": [
+    {
+      "path": "qa/interrupted_attempts/U_160_40_32_3/MIP.json",
+      "sha256": "488da3cca7bb608961f8a297a196ff6e5fd290fd8e03ca937a601c32931271d0",
+      "has_end_record": false,
+      "has_run_key": false,
+      "status": "started",
+      "candidate_feasible": true
+    },
+    {
+      "path": "qa/interrupted_attempts/U_320_80_48_2/MIP.json",
+      "sha256": "916fb21b240b50dcbf41c2091401cdd7141ec294981cdba941ed52a97041c2b6",
+      "has_end_record": false,
+      "has_run_key": false,
+      "status": "started",
+      "candidate_feasible": false
+    },
+    {
+      "path": "qa/interrupted_attempts/U_320_80_48_3/LPR.json",
+      "sha256": "b887dd4578bbb9972ad488b8e04881bb30e5387a85453d84b468adcbbcf0d8ae",
+      "has_end_record": false,
+      "has_run_key": false,
+      "status": "started",
+      "candidate_feasible": false
+    },
+    {
+      "path": "qa/interrupted_attempts_resume2/C_320_80_48_2/LPR.json",
+      "sha256": "e314e99fe1c2bde8f72670649cbb4118c66a78cf3529f389ef1118cbeec6f8d1",
+      "has_end_record": false,
+      "has_run_key": false,
+      "status": "started",
+      "candidate_feasible": false
+    },
+    {
+      "path": "qa/interrupted_attempts_resume2/U_160_40_32_1/MIP.json",
+      "sha256": "4306fefd578d3cf45199e3ef530dd103942a2f645f26b2aeac3a4ded2c0b4e50",
+      "has_end_record": false,
+      "has_run_key": false,
+      "status": "started",
+      "candidate_feasible": true
+    },
+    {
+      "path": "qa/interrupted_attempts_resume2/U_320_80_48_1/LPR.json",
+      "sha256": "ab067cc24f6a64308b3d1325d7a7e37cf6bc3ccc3e3da91fb64d9509e7346a3c",
+      "has_end_record": false,
+      "has_run_key": false,
+      "status": "started",
+      "candidate_feasible": false
+    },
+    {
+      "path": "qa/resume_20261102_partial/C_80_20_16_1/MIP.json",
+      "sha256": "3f385dc18ede8456f4b22b6fc43fea03780dbe5fe9e1999ac720876944381b42",
+      "has_end_record": false,
+      "has_run_key": false,
+      "status": "started",
+      "candidate_feasible": true
+    },
+    {
+      "path": "qa/resume_20261102_partial/C_80_20_16_2/MIP.json",
+      "sha256": "b283e12a704ae1eb8235d909ee415bf3f34720b7d045adcf0ae0b10e7f400f7c",
+      "has_end_record": false,
+      "has_run_key": false,
+      "status": "started",
+      "candidate_feasible": true
+    },
+    {
+      "path": "qa/resume_20261102_partial/C_80_20_16_3/G.json",
+      "sha256": "738143ea35c12da0b3890ae8ab957d2dde51fdf502df6e2828cf612b6814cfe5",
+      "has_end_record": false,
+      "has_run_key": false,
+      "status": "started",
+      "candidate_feasible": true
+    },
+    {
+      "path": "qa/resume_20261102_partial/C_80_20_16_3/MIP.json",
+      "sha256": "a86714bef0005ac3b1838f5f5be293cc228dfaed842fd6baf6f7bb194155f564",
+      "has_end_record": false,
+      "has_run_key": false,
+      "status": "started",
+      "candidate_feasible": true
+    }
+  ],
+  "missing_or_interrupted": [],
+  "extra_results_present": false,
+  "scenario_results_present": false,
+  "complete": true
+}

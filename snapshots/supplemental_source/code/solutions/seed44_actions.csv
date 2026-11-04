@@ -1,0 +1,11 @@
+﻿round,type,manager,resource,omitted_resources
+1,strict,1,4,
+1,strict,2,,
+2,strict,1,6,
+2,strict,2,,
+3,approximate,1,2,4 6 7
+3,approximate,2,1,
+4,approximate,1,2,6
+4,approximate,2,5,
+5,approximate,1,2,3 7
+5,approximate,2,1,

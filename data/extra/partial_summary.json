@@ -1,0 +1,13 @@
+{
+  "independent_inputs": 20,
+  "shared_LP_attempts": 20,
+  "shared_LP_optimal": 20,
+  "planned_postprocess": 180,
+  "executed_postprocess": 180,
+  "radius_runs": 36,
+  "audited": true,
+  "statuses": {
+    "repair_and_local_complete": 167,
+    "repair_failed": 13
+  }
+}

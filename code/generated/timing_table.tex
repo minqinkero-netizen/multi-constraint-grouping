@@ -1,0 +1,12 @@
+\begin{table}[htbp]
+\centering\small
+\caption{成功与失败运行分别计时：均值及样本标准差，单位秒；星号含义同前}\label{tab:timing-split}
+\begin{tabular}{lrrrrr}\toprule
+方法 & 成功数 & 成功耗时 & 失败数 & 失败耗时 & 全部耗时 \\\midrule
+G & 14 & $14.64\pm20.93$ & 4 & $92.16\pm51.61$ & $31.86\pm43.64$ \\
+LS & 14 & $13.73\pm19.26$ & 4 & $90.33\pm50.70$ & $30.76\pm42.56$ \\
+SLS & 12 & $3.08\pm3.59$ & 6 & $0.88\pm0.39$ & $2.35\pm3.09$ \\
+MIP & 17 & $506.93\pm183.01$ & 1 & $600.14^{*}$ & $512.10\pm178.90$ \\
+LPR & 12 & $22.41\pm33.95$ & 6 & $570.41\pm0.17$ & $205.08\pm267.22$ \\
+\bottomrule\end{tabular}
+\end{table}

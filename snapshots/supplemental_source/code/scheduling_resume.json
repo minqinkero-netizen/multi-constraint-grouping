@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-02",
+  "reason": "Resume after execution environment interruptions; prevent overlapping solver processes within 8 GiB.",
+  "retained_complete_records": 46,
+  "archived_incomplete_records": 4,
+  "policy": "One CPU-pinned worker; lightweight methods then small LP, large LP, MIP. Same per-run budget and immutable algorithm core. Queue time excluded.",
+  "archive": "qa/resume_20261102_partial/"
+}

@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{构造类方法的均值与样本标准差：obj只统计可行方案，infeas只统计返回候选，time包含全部运行（秒）；每行3个输入}\label{tab:main-results}
+\resizebox{\textwidth}{!}{\begin{tabular}{lrrrrrrrrr}\toprule
+ & \multicolumn{3}{c}{G} & \multicolumn{3}{c}{LS} & \multicolumn{3}{c}{SLS} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+输入 & obj & infeas & time & obj & infeas & time & obj & infeas & time \\\midrule
+U(80,20,16) & $19.0\pm9.6$ & $0.0\pm0.0$ & $0.85\pm0.06$ & $14.3\pm10.3$ & $0.0\pm0.0$ & $1.71\pm0.23$ & $17.7\pm10.2$ & $0.0\pm0.0$ & $0.84\pm0.49$ \\
+C(80,20,16) & $36.7\pm7.1$ & $0.0\pm0.0$ & $1.27\pm0.40$ & $33.0\pm6.6$ & $0.0\pm0.0$ & $1.40\pm0.43$ & $31.7\pm6.8$ & $0.0\pm0.0$ & $0.66\pm0.04$ \\
+U(160,40,32) & $96.3\pm14.5$ & $0.0\pm0.0$ & $6.69\pm2.74$ & $83.7\pm17.5$ & $0.0\pm0.0$ & $7.41\pm2.45$ & -- & -- & $0.53\pm0.05$ \\
+C(160,40,32) & $161.5\pm6.4$ & $0.0\pm0.0$ & $12.50\pm4.20$ & $150.5\pm10.6$ & $0.0\pm0.0$ & $11.25\pm4.01$ & $148.7\pm17.8$ & $0.0\pm0.0$ & $2.24\pm1.12$ \\
+U(320,80,48) & $378.7\pm57.6$ & $0.0\pm0.0$ & $52.00\pm8.60$ & $362.7\pm53.0$ & $0.0\pm0.0$ & $47.61\pm12.51$ & -- & -- & $1.22\pm0.11$ \\
+C(320,80,48) & -- & -- & $117.87\pm5.41$ & -- & -- & $115.16\pm12.50$ & $514.7\pm21.5$ & $0.0\pm0.0$ & $8.58\pm2.59$ \\
+\bottomrule\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{求解器路线的均值与样本标准差；统计口径同表\ref{tab:main-results}。星号表示只有一个有效观测，无法估计标准差}\label{tab:main-results-solvers}
+\resizebox{\textwidth}{!}{\begin{tabular}{lrrrrrr}\toprule
+ & \multicolumn{3}{c}{MIP} & \multicolumn{3}{c}{LPR} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+输入 & obj & infeas & time & obj & infeas & time \\\midrule
+U(80,20,16) & $12.0\pm10.0$ & $0.0\pm0.0$ & $204.10\pm317.37$ & $17.7\pm11.0$ & $0.0\pm0.0$ & $0.61\pm0.30$ \\
+C(80,20,16) & $29.0\pm7.9$ & $0.0\pm0.0$ & $570.09\pm0.01$ & $36.7\pm7.4$ & $0.0\pm0.0$ & $1.48\pm0.37$ \\
+U(160,40,32) & $114.3\pm25.1$ & $0.0\pm0.0$ & $570.11\pm0.02$ & $106.7\pm20.4$ & $0.0\pm0.0$ & $10.13\pm10.47$ \\
+C(160,40,32) & $191.3\pm16.7$ & $0.0\pm0.0$ & $576.88\pm11.70$ & $165.0\pm23.5$ & $0.0\pm0.0$ & $77.43\pm9.58$ \\
+U(320,80,48) & $442.5\pm89.8$ & $0.0\pm0.0$ & $580.87\pm16.71$ & -- & -- & $570.28\pm0.15$ \\
+C(320,80,48) & $596.3\pm27.8$ & $0.0\pm0.0$ & $570.58\pm0.05$ & -- & -- & $570.54\pm0.02$ \\
+\bottomrule\end{tabular}}
+\end{table}

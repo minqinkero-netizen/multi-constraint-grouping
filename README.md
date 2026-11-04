@@ -1,39 +1,32 @@
-# 最新实验版本（独立分支）
+# 最终实验版本：90 次主实验与补充实验
 
-本目录对应 `final-experiments-20261103` 分支，基于原 `main` 的历史版本新增最新实验快照，不改写或删除旧提交。
+固定分支：`final-experiments-20261103`。保留 main 及全部历史提交。此次仅恢复、校验和同步既有记录，没有重新运行优化器。
 
-## 实验范围
+## 统计口径
 
-- 主实验：18 个独立输入 × G、LS、SLS、MIP、LPR 五种方法，共 90 次运行。
-- 主实验预算：600 秒；记录包含输入、随机种子、配置、候选解、目标值、耗时、求解状态和独立审计结果。
-- 补充实验：共享 LP、LP-G/LP-N/UNI 消融、距离敏感性和小规模精确核对；补充实验不并入主实验统计。
-- 失败口径：超时、强制停止、预算内未得到候选解均不解释为实例不可行；只有明确的模型不可行状态才标记为不可行。
+18 个输入 × G、LS、SLS、MIP、LPR 共 90 次主实验，预算 600 秒。可行数依次为 14、14、12、17、12（分母均为 18）。目标统计仅使用可行结果；失败和强制停止仍保留在可行率分母中，不能解释为实例不可行。
 
-## 主实验汇总
+补充实验单独保存：20 次共享 LP、180 次后处理、36 次距离扫描、24 次小规模/说明情境运行。共享 LP 是每输入一次，LP-G/LP-N 共享该解，UNI 不调用共享 LP。LP-G、LP-N、UNI 可行数为 55/60、56/60、56/60。小规模/情境运行预算为 600 秒。
 
-| 方法 | 可行次数 | 可行率 | 可行目标均值±标准差 | 总耗时均值±标准差（秒） |
-|---|---:|---:|---:|---:|
-| G | 14/18 | 77.8% | 136.786±141.616 | 31.865±43.644 |
-| LS | 14/18 | 77.8% | 127.286±137.164 | 30.756±42.557 |
-| SLS | 12/18 | 66.7% | 178.167±210.158 | 2.346±3.089 |
-| MIP | 17/18 | 94.4% | 218.471±225.112 | 512.104±178.899 |
-| LPR | 12/18 | 66.7% | 81.500±62.783 | 205.078±267.218 |
+## 目录与原检查点
 
-目标统计只对通过独立检查的可行记录计算；可行率分母始终为该方法的 18 个主实验输入。
+- `snapshots/supplemental_source/`：原始检查点的全部 758 个文件，加最终哈希源本身；逐字节保留。环境依赖中的 Linux 二进制只用于历史环境追溯，Windows 应安装依赖。
+- `snapshots/supplemental_source/SUPPLEMENTAL_FINAL_SHA256.json`：原始 758 项大小和 SHA-256，文件自身哈希为 `a428bcb8ae92ea486943ec8f49a1f91c7edee522174ab67cba07ec4a82326479`。
+- `code/`：与原检查点相同的可运行目录，包括输入、逐次结果、配置、说明情境、独立检查器与分析脚本。
+- `data/results.json`、`data/summary.json`、`data/results_table.csv`：主实验原始汇总、统计、逐例 CSV；均与 `code/data/` 对应文件一致。
+- `data/extra/`：20 个共享 LP、180 次后处理和 36 次距离扫描；`data/scenario_data/`：24 次小规模/说明情境运行。
+- `experiments/latest_complete_experiment_package_20261102.zip`：经完整 CRC 校验的原始完整实验快照。
+- `reports/revalidation_main_20261104.json`、`reports/revalidation_all_20261104.json`：此次独立复核；`reports/recomputed_summary_20261104.json`：重新核算的统计。
 
-## 目录
+## 只核验已保存结果
 
-- `code/`：最终算法、独立检查器、分析和复现脚本。
-- `data/`：主实验 JSON、CSV、协议、输入清单、汇总和审计数据。
-- `figures/`：由真实记录生成的图表。
-- `audit/`：恢复审计、去重预检和逐次运行账本。
-- `reports/`：恢复报告、补充实验报告和状态说明。
-- `experiments/latest_complete_experiment_package_20261102.zip`：包含主实验与补充实验逐例记录、输入和配置的完整快照。
+Python 依赖见 `code/requirements.txt`。原运行环境及 CPU 调度历史见原协议、scheduling_resume.json 和快照报告。安装依赖后，在仓库根目录运行：
 
-## 复现已保存结果
+```text
+python -m pip install -r code/requirements.txt
+python verify_saved.py
+```
 
-先安装 `code/requirements.txt`，再运行 `code/independent_check.py` 和 `code/analyze_study.py` 重新核对已保存结果；图表可由 `code/analyze_study_english_figures.py` 重建。重新运行限时求解会产生新的运行记录，不能覆盖本快照。运行环境、HiGHS 版本和线程设置以 `code/protocol.json` 为准。
+该命令先核对 758 项原哈希，再在临时副本中独立检查已保存的整数解、LP、输入见证、聚合与逐次记录，重新计算统计；不会运行任何优化器，也不覆盖原记录。绘图和重新求解是不同操作。若要生成新运行，应使用 `code/reproduce.py --out 新目录`，不覆盖本批数据。
 
-## 与论文的对应
-
-论文第六章的主实验表格对应 `data/summary.json` 和 `data/results_table.csv`；补充实验表格对应 `data/extra/` 的逐例快照及汇总文件；逐例输入和算法结果均保存在完整实验 ZIP 中。论文附录 D 应引用本分支提交的实际 commit，而不是旧版四方法提交。
+论文附录 B/D 和验证清单应固定引用实际已推送 commit，不使用 main 或旧版 72 次/4 方法作为本次实验版本。

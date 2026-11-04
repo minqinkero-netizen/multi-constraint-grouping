@@ -1,12 +1,21 @@
 {
-  "version": "final-experiments-20261103",
-  "main_runs": 90,
   "main_inputs": 18,
-  "main_methods": ["G", "LS", "SLS", "MIP", "LPR"],
-  "supplemental": ["shared_LP", "ablation", "radius_sensitivity", "small_exact"],
-  "main_source": "data/results.json",
-  "main_summary": "data/summary.json",
-  "supplemental_package": "experiments/latest_complete_experiment_package_20261102.zip",
-  "paper_basis": "user-supplied 43-page PDF; no Overleaf source claimed",
-  "created_utc": "2026-11-03T00:00:00Z"
+  "main_runs": 90,
+  "main_methods": [
+    "G",
+    "LS",
+    "SLS",
+    "MIP",
+    "LPR"
+  ],
+  "shared_LP": 20,
+  "postprocess": 180,
+  "radius": 36,
+  "scenario": 24,
+  "snapshot_files": 758,
+  "solver_runs_started_this_update": 0,
+  "raw_snapshot_hashes_verified": true,
+  "independent_audit_passed": true,
+  "previous_branch_commit": "efdd48df30e71e01f4c21cdd534489e2a7a91e1a",
+  "main_untouched": true
 }

@@ -1,0 +1,92 @@
+{
+  "version": "2026-10-31-r1",
+  "main_configs": [
+    [
+      80,
+      20,
+      16
+    ],
+    [
+      160,
+      40,
+      32
+    ],
+    [
+      320,
+      80,
+      48
+    ]
+  ],
+  "main_families": [
+    "U",
+    "C"
+  ],
+  "main_inputs_per_cell": 3,
+  "main_methods": [
+    "G",
+    "LS",
+    "SLS",
+    "MIP",
+    "LPR"
+  ],
+  "main_budget_seconds": 600,
+  "exit_reserve_seconds": 30,
+  "solver": "HiGHS 1.13.1 native interface, single thread, same P2 matrices",
+  "G_LS_max_constructions": 128,
+  "stall_completed": 12,
+  "spatial_max_constructions": 128,
+  "LPR_fallback_max_constructions": 64,
+  "LPR_local_improvement": true,
+  "MIP_warm_start": false,
+  "MIP_extra_symmetry_constraints": false,
+  "extra_configs": [
+    [
+      80,
+      20,
+      24
+    ],
+    [
+      120,
+      30,
+      24
+    ]
+  ],
+  "extra_families": [
+    "U",
+    "O"
+  ],
+  "extra_inputs_per_cell": 5,
+  "extra_random_repeats": 3,
+  "ablation_variants": [
+    "LP-G",
+    "LP-N",
+    "UNI"
+  ],
+  "ablation_LP_seconds": 120,
+  "ablation_postprocess_seconds": 30,
+  "distance_factors": [
+    1.0,
+    1.15,
+    1.3
+  ],
+  "distance_scan_inputs": "first 3 U and O inputs at n=80",
+  "distance_scan_methods": [
+    "LS",
+    "SLS"
+  ],
+  "distance_budget_seconds": 30,
+  "tolerances": {
+    "integer": 1e-06,
+    "LP_primal_check": 2e-06,
+    "LP_objective_check": 0.0001,
+    "gap": 1e-06,
+    "solver_primal_dual": 1e-07
+  },
+  "description": "Frozen before formal execution; callbacks preserve MIP incumbents, analytical count bound remains valid independently of numeric solver output. Main historical inputs are reused unchanged; no witness is given to any algorithm. Supplemental shared LP setup and postprocessing are reported separately, not counted as independent inputs.",
+  "extra_O_jitter_fraction": 0.45,
+  "extra_O_radius": "1.02 times maximum within-witness diameter",
+  "extra_seed_base": 61000,
+  "main_algorithm_seed": "input seed + 70000, identical for G and LS",
+  "parallel_processes": 3,
+  "cpu_policy": "Each single-thread run is bound to one of cores 0,1,2; all scales use the same three-worker scheduler."
+}

@@ -1,0 +1,13 @@
+{
+  "interrupted_at_observed_utc": "2026-11-02T06:38:20.849687+00:00",
+  "task": "C_80_20_16_1 / MIP",
+  "classification": "interrupted_without_parent_end_record; not counted in 90 official runs",
+  "last_saved_worker_seconds": 534.2845378530001,
+  "candidate_L": 32,
+  "candidate_H": 0,
+  "candidate_feasible": true,
+  "status": "started",
+  "full_600_second_budget_completed": false,
+  "optimizations_added_to_verified_total": 0,
+  "reason": "tool session ended as user steered ongoing turn"
+}

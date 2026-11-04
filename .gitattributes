@@ -1,0 +1,6 @@
+snapshots/** -text
+code/** -text
+data/** -text
+reports/** -text
+audit/** -text
+*.zip -text
